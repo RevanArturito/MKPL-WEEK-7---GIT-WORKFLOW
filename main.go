@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-func Addition(a, b int) int {
-	return a + b
+func Substraction(a, b int) int {
+	return a - b
 }
 
-// Branch Addition
+// Branch Substraction
 func main() {
-	fmt.Println("Ini Branch Addition")
-	fmt.Println("hasil : ", Addition(3, 4))
+	fmt.Println("Ini Branch Substraction")
+	fmt.Println("hasil : ", Substraction(3, 4))
 }
