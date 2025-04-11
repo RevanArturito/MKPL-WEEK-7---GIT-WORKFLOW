@@ -2,7 +2,12 @@ package main
 
 import "fmt"
 
-// Branch Main
+func Addition(a, b int) int {
+	return a + b
+}
+
+// Branch Addition
 func main() {
-	fmt.Println("Ini Branch Main")
+	fmt.Println("Ini Branch Addition")
+	fmt.Println("hasil : ", Addition(3, 4))
 }
